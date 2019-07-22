@@ -7,22 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        span {
-            border: 1px solid black;
-        }
-        biv {
-            border: 1px solid yellow;
-        }
+
     </style>
+    <script>
+        var grades = {
+            'egoing': 10,
+            'k8805': 6,
+            'sorialgi': 80
+        };
+        for (key in grades) {
+            document.write("key : " + key + " value : " + grades[key] + "<br />");
+        }
+    </script>
 </head>
 
 <body>
-    <span>
-        aaa
-    </span>
-    <div>
-        bbb
-    </div>
+
 </body>
 
 </html>
