@@ -1,8 +1,8 @@
 function outter(){
-    function inner(){
-        var title = 'coding everybody'; 
+    var title = 'coding everybody';  
+    return function(){        
         alert(title);
     }
-    inner();
 }
-outter();
+inner = outter();
+inner();
